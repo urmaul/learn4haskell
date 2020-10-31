@@ -525,7 +525,7 @@ data City = City
   } deriving (Show)
 
 buildCastle :: String -> City -> City
-buildCastle name city = city { cityCastle = (Castle name) }
+buildCastle name city = city { cityCastle = Castle name }
 
 buildHouse :: Int -> City -> City
 buildHouse people city
